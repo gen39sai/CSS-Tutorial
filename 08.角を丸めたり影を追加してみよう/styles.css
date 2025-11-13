@@ -34,6 +34,9 @@ li {
   width: 244px;
   padding: 2px 8px 2px 2px;
   margin: 4px 10px 4px 0;
+  /* li要素にスタイルを適用 */
+  border: #192F60 1px solid;
+  border-radius: 8px;
 }
 
 main {
@@ -41,10 +44,16 @@ main {
 }
 
 
-/* li要素にスタイルを適用 */
-
 /* header要素にスタイルを適用 */
-
+header {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
 /* div要素にスタイルを適用 */
-
+div{
+  border-radius: 0 0 20px 20px;
+}
 /* main要素内にスタイルを適用 */
+main {
+  overflow: auto;
+}
